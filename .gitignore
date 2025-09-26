@@ -1,0 +1,63 @@
+# ====== Java ======
+*.class
+*.jar
+*.war
+*.ear
+
+# ====== Maven ======
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/.mvn/timing.properties
+
+# ====== Gradle ======
+/build/
+/gradle-app.setting
+/gradle-wrapper.jar
+/gradle-wrapper.properties
+/.gradle/
+
+# ====== IDE files ======
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+/bin/
+
+# VS Code
+/.vscode/
+
+# ====== OS Files ======
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# ====== Logs ======
+*.log
+logs/
+*.log.*
+
+# ====== Temporary files ======
+*.tmp
+*.temp
+*.swp
+*~
+
+# ====== Spring Boot ======
+# Embedded database files
+*.db
+*.h2.db
+
+# ====== Application properties/secrets ======
+# If you have local overrides or secrets, don't commit them
+application-local.properties
+application-*.yml
